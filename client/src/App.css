@@ -1,5 +1,6 @@
 body {
   margin: 1rem 2rem;
+
   /* margin: 20px 40px; */
 }
 .App {
@@ -40,7 +41,14 @@ body {
   align-items: center;
   margin: 1rem 0;
   padding: 2rem 1rem;
+  text-align: start;
 }
+
+.job:hover {
+  cursor: pointer;
+  color: #666;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
