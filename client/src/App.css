@@ -49,6 +49,10 @@ body {
   color: #666;
 }
 
+.detail-logo {
+  height: 2rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
