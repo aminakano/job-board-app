@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Jobs from "./Jobs";
 
-const JOB_API_URL = "/api/jobs";
-// const JOB_API_URL = "http://localhost:3001/jobs";
+// const JOB_API_URL = "/api/jobs";
+const JOB_API_URL = "http://localhost:3001/jobs";
 
 async function fetchJobs(updateCb) {
   const res = await fetch(JOB_API_URL);
