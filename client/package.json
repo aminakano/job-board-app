@@ -24,6 +24,7 @@
       "target": "http://localhost:3001"
     }
   },
+  "homepage": "https://aminakano.github.io/jr-dev",
   "eslintConfig": {
     "extends": "react-app"
   },
